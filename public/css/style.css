@@ -1,29 +1,49 @@
-
-
-input[type=button]{
-	background: #5c42f4;
-	/* width: 20%; */
-	/* font-size: 40px; */
-	font-weight: 500;
-	margin: 2%;
-	border-radius: 4px;
+input[type="button"] {
+  background: #89d0da;
+  /* width: 20%; */
+  /* font-size: 40px; */
+  font-weight: 500;
+  margin: 2%;
+  border-radius: 5px;
+  font-weight: 700;
 }
 
-input[type=text]{
-	width: 90%;
-	font-size: 20px;
-	border: 2px inset #f442df;
-	border-width: 3px;
+input[type="button"]:active {
+  background: #c6f1ec;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
-body{
-	background-image: url("../img/math.jpg");
-	background-size: cover;
-	background-attachment: fixed;
+input[type="text"] {
+  width: 100%;
+  font-size: 20px;
+  border: 2px inset #05262c;
+  border-width: 3px;
+  border-radius: 10px;
 }
 
+body {
+  background-image: url("../img/math.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-form { 
-margin: 0 auto; 
-width:250px;
+form {
+  margin: 0 auto;
+  width: 250px;
+}
+
+span.border {
+  background-color: rgba(149, 235, 230, 0.1);
+  border-radius: 20px;
+}
+
+.reference {
+  color: rgb(136, 175, 175);
+}
+
+#mynave {
+  background-color: rgba(149, 235, 230, 0.1);
 }
